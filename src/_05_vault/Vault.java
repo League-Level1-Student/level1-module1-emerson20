@@ -3,6 +3,9 @@ package _05_vault;
 public class Vault {
 private int secretCode = 999923;
 
+Vault(int secretCode){
+	this.secretCode=secretCode;
+}
 
 public boolean tryCode(int code) {
 	if (code == secretCode) {

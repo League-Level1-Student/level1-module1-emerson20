@@ -2,7 +2,7 @@ package _05_vault;
 
 public class James_Bond {
 public static void main(String[] args) {
-	Vault fox = new Vault();
+	Vault fox = new Vault(999925);
 	
 	James_Bond bond = new James_Bond();
 	bond.findCode(fox);
